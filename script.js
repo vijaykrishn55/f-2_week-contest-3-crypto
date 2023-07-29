@@ -39,7 +39,7 @@ function showPanel(idx){
     pushGridContent();
     if(idx == 1){
         list_btn.style.borderBottom = "none";
-        grid_btn.style.borderBottom = "2px solid rgb(60, 120, 205)";
+        grid_btn.style.borderBottom = "4px solid rgb(60, 120, 205)";
         grid.style.display = "block";
         list.style.display = "none";
         if(arr)pushGridContent();
