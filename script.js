@@ -46,7 +46,7 @@ function showPanel(idx){
         list.innerHTML = '';
     }else{
         grid_btn.style.borderBottom = "none";
-        list_btn.style.borderBottom = "2px solid rgb(60, 120, 205)";
+        list_btn.style.borderBottom = "4px solid rgb(60, 120, 205)";
         list.style.display = "block";
         grid.style.display = "none";
         if(arr)pushListContent();
