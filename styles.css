@@ -29,13 +29,22 @@ body{
     align-items: center;
 }
 
-.active-menu,.nav-menu-items:hover{
+.nav-menu-items-active-menu{
     background-color: rgb(66, 115, 199);
     border-radius: 25px;
     padding: 7px 15px;
 }
-
-
+.nav-menu-items{
+    background-color: transparent;
+    border-radius: 25px;
+    padding: 7px 15px;
+}
+.nav-menu-items:hover{
+    background-color: rgb(66, 115, 199);
+}
+.nav-menu > a{
+    text-decoration: none;
+}
 /* list-grid section */
 .panel-container{
     height: 100%;
@@ -138,8 +147,6 @@ body{
 #list-view > table{
     width: 100%;
 }
-
-
 
 #list-view > table > tr > td{
     margin-inline: 10px;
